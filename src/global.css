@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Cursive:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-cursive: Cursive;
+
+  /* font sizes */
+  --font-size-21xl: 40px;
+  --font-size-5xl: 24px;
+  --font-size-13xl: 32px;
+
+  /* Colors */
+  --style: #001aff;
+  --style1: #d9d9d9;
+  --color-black: #000;
+  --style2: #9f9f9f;
+
+  /* Gaps */
+  --gap-55xl-2: 74.2px;
+  --gap-18xl: 37px;
+  --gap-lgi: 19px;
+  --gap-sm-5: 13.5px;
+
+  /* Paddings */
+  --padding-11xs-2: 1.2px;
+  --padding-12xs: 1px;
+  --padding-4xs: 9px;
+  --padding-8xs-4: 4.4px;
+  --padding-8xs-2: 4.2px;
+  --padding-4xs-3: 8.3px;
+}

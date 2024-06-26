@@ -1,0 +1,41 @@
+.buttons {
+  width: 339px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 18px;
+  max-width: 100%;
+}
+.macbookPro1613,
+.navigation {
+  display: flex;
+  box-sizing: border-box;
+}
+.navigation {
+  width: 1168px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 7px 0 0;
+  max-width: 100%;
+}
+.macbookPro1613 {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 88px 20px 695px 26px;
+  gap: 47.1px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .macbookPro1613 {
+    gap: 24px;
+  }
+}

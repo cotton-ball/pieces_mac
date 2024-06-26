@@ -1,0 +1,64 @@
+.btnChild,
+.btnItem {
+  height: 95.56%;
+  width: 97.27%;
+}
+.btnChild {
+  position: absolute;
+  top: 4.44%;
+  right: 0;
+  bottom: 0;
+  left: 2.73%;
+  background-color: var(--style2);
+}
+.btnItem {
+  top: 0;
+  right: 2.73%;
+  bottom: 4.44%;
+  left: 0;
+  background-color: var(--style1);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.btn,
+.btnItem,
+.text {
+  position: absolute;
+}
+.btn {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.text {
+  height: 88.89%;
+  width: 87.01%;
+  top: 11.11%;
+  left: 5.19%;
+  display: inline-block;
+  min-width: 67px;
+  z-index: 2;
+}
+.textBtn {
+  height: 45px;
+  width: 77px;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--style);
+  font-family: var(--font-cursive);
+}
+@media screen and (max-width: 1050px) {
+  .text {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .text {
+    font-size: var(--font-size-5xl);
+  }
+}
